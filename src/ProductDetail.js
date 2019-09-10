@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function ProductDetail({name, desc, image_lg, price}) {
   return (
     <div className="ProducDetail" style={{backgroundColor:'#eef'}}>
