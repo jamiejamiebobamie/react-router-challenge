@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 
-function ProductDetail({name, desc, image_lg, price}) {
+function ProductDetail(props) {
+const {name, desc, image_lg, price} = props.location.state
   return (
     <div className="ProducDetail" style={{backgroundColor:'#eef'}}>
       <h1>{name}</h1>
